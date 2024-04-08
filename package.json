@@ -17,10 +17,7 @@
     "type": "git",
     "url": "git+https://github.com/bcoe/release-please-action.git"
   },
-  "keywords": [
-    "release-please",
-    "action"
-  ],
+  "keywords": ["release-please", "action"],
   "author": "Ben Coe <bencoe@gmail.com>",
   "license": "Apache-2.0",
   "bugs": {
@@ -29,7 +26,7 @@
   "homepage": "https://github.com/bcoe/release-please-action#readme",
   "dependencies": {
     "@actions/core": "^1.10.0",
-    "release-please": "^16.10.0"
+    "release-please": "git+https://github.com/YuiYukihira/release-please.git#main"
   },
   "devDependencies": {
     "@types/mocha": "^9.0.0",
